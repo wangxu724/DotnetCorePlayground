@@ -6,12 +6,15 @@ namespace DotnetCorePlayground
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Welcome to .net core playground!\n");
 
-            var foreachAsyncExammple = new ForeachAsyncExamples();
-            await foreachAsyncExammple.Run();
+            //await ForeachAsyncExamples.Run();
+
+            OtherExamples.Test_DoubleQuestionMarkOperator();
+
+            OtherExamples.Test_TicksToDatetime();
         }
     }
 }

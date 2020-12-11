@@ -6,11 +6,7 @@ namespace DotnetCorePlayground.Examples
 {
     public class ForeachAsyncExamples
     {
-        public ForeachAsyncExamples()
-        {
-        }
-
-        public async Task Run()
+        public static async Task Run()
         {
             int[] nums = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
